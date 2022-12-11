@@ -96,7 +96,6 @@ rules:
   - RULE-SET,Apple,Apple
   - RULE-SET,Google FCM,Google FCM
   - RULE-SET,Scholar,Scholar
-  - RULE-SET,PROXY,Proxy
   - RULE-SET,Domestic,Domestic
   - RULE-SET,Domestic IPs,Domestic
   - RULE-SET,LAN,DIRECT
@@ -159,7 +158,6 @@ script:
             "Apple": "Apple",
             "Google FCM": "Google FCM",
             "Scholar": "Scholar",
-            "PROXY": "Proxy",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
@@ -498,12 +496,7 @@ rule-providers:
     url: https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml
     path: ./Rules/Microsoft
     interval: 86400
-  PROXY:
-    type: http
-    behavior: classical
-    url: https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml
-    path: ./Rules/Proxy
-    interval: 86400
+
   Domestic:
     type: http
     behavior: classical
