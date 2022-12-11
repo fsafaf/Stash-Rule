@@ -1,3 +1,4 @@
+name: 在线规则覆写
 rules:
  - DOMAIN-SUFFIX,emby.ytoo.li,🐟 漏网之鱼
  - DOMAIN-SUFFIX,accountkit.com,📷 instagram
