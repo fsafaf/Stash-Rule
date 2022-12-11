@@ -502,6 +502,8 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: "3600"
 rules:
+
+  - DOMAIN-SUFFIX,lekan.app,DIRECT
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,Netflix,Netflix
