@@ -57,67 +57,14 @@ proxy-groups:
       - 'USA 美国01 | 中转 | 1.0x | V1'
       - 'USA 美国02 | 中转 | 1.0x | V1'
       - 🚀直接连接
-  - name: Others
-    type: select
-    proxies:
-
-      - 'Asia 香港01 | 直连 | 1.0 x | V1'
-      - 'Asia 香港02 | 直连 | 1.0x | V1'
-      - 'Asia 香港03 | 直连 | 1.0x | V1'
-      - 'Asia 香港04 | 直连 | 1.0x | V1'
-      - 'Asia 香港05 | 直连 | 1.0x | V1'
-      - 'Asia 香港06 | 直连 | 1.0x | V1'
-      - 'Asia 香港07 | 直连 | 1.0x | V1'
-      - 'Asia 香港08 | 直连 | 1.0x | V1'
-      - 'Asia 香港09 | 奈飞 | 2.0x | V1'
-      - 'Asia 香港10 | 移动优化线路 | 1.0x | V1'
-      - 'Asia 香港11 | 移动优化线路 | 1.0x | V1'
-      - 'FR 法国 | tiktok | 2.0x | V1'
-      - 'Hinet 台湾 | 迪士尼 | Netflix | 3.0x | V1'
-      - 'JP 日本 | tiktok | 2.0x | V1'
-      - 'Korea 韩国   | 中转 | 推特 | 1.0x | V1'
-      - 'NTL 荷兰 | 中转 | 1.0x | V1'
-      - 'SGP 新加坡 | 中转 | 奈飞 | 2.0x | V1'
-      - 'UC 台湾01 | Youtube免广告 | 3.0x | V1'
-      - 'UC 台湾02 | Youtube免广告 | 2.0x | V1'
-      - 'UK 英国 | tiktok | 2.0x | V1'
-      - 'USA 美国01 | 中转 | 1.0x | V1'
-      - 'USA 美国02 | 中转 | 1.0x | V1'
-      - 🚀直接连接
-
+  
   - name: AdBlock
     type: select
     proxies:
       - REJECT
       - DIRECT
       - Proxy
-  - name: Apple
-    type: select
-    proxies:
 
-      - 'Asia 香港01 | 直连 | 1.0 x | V1'
-      - 'Asia 香港02 | 直连 | 1.0x | V1'
-      - 'Asia 香港03 | 直连 | 1.0x | V1'
-      - 'Asia 香港04 | 直连 | 1.0x | V1'
-      - 'Asia 香港05 | 直连 | 1.0x | V1'
-      - 'Asia 香港06 | 直连 | 1.0x | V1'
-      - 'Asia 香港07 | 直连 | 1.0x | V1'
-      - 'Asia 香港08 | 直连 | 1.0x | V1'
-      - 'Asia 香港09 | 奈飞 | 2.0x | V1'
-      - 'Asia 香港10 | 移动优化线路 | 1.0x | V1'
-      - 'Asia 香港11 | 移动优化线路 | 1.0x | V1'
-      - 'FR 法国 | tiktok | 2.0x | V1'
-      - 'Hinet 台湾 | 迪士尼 | Netflix | 3.0x | V1'
-      - 'JP 日本 | tiktok | 2.0x | V1'
-      - 'Korea 韩国   | 中转 | 推特 | 1.0x | V1'
-      - 'NTL 荷兰 | 中转 | 1.0x | V1'
-      - 'SGP 新加坡 | 中转 | 奈飞 | 2.0x | V1'
-      - 'UC 台湾01 | Youtube免广告 | 3.0x | V1'
-      - 'UC 台湾02 | Youtube免广告 | 2.0x | V1'
-      - 'UK 英国 | tiktok | 2.0x | V1'
-      - 'USA 美国01 | 中转 | 1.0x | V1'
-      - 'USA 美国02 | 中转 | 1.0x | V1'
-      - 🚀直接连接
   - name: Google FCM
     type: select
     proxies:
