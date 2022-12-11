@@ -1,5 +1,5 @@
 name: 在线规则覆写
-desc: 添加分组&规则：
+desc: 添加分组&规则：1
 
 proxy-groups:
   - name: Proxy
