@@ -8,7 +8,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-      - Proxy
+      - 🔰国外流量
       
   - name: Auto - UrlTest
     type: url-test
