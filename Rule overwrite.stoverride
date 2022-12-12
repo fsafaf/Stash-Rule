@@ -10,7 +10,6 @@ proxy-groups:
       - DIRECT
       - 🔰国外流量
       
-      
   - name: AdBlock
     type: select
     proxies:
