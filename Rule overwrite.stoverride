@@ -50,10 +50,10 @@ proxy-groups:
 rules:
 
 
- - DOMAIN-SUFFIX,notion.so,📒Notion
-        - DOMAIN-SUFFIX,www.notion.so,📒Notion  
-        - DOMAIN-SUFFIX,msgstore.www.notion.so,📒Notion
-        - DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com,📒Notion
+  - DOMAIN-SUFFIX,notion.so,📒Notion
+  - DOMAIN-SUFFIX,www.notion.so,📒Notion  
+  - DOMAIN-SUFFIX,msgstore.www.notion.so,📒Notion
+  - DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com,📒Notion
   - DOMAIN-SUFFIX,lekan.app,DIRECT
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
