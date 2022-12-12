@@ -1,7 +1,15 @@
 name: 在线规则覆写
-desc: 添加分组&规则：1.Auto - UrlTest 2.AdBlock
+desc: 添加分组&规则：1.Auto - UrlTest 2.AdBlock  添加notion代理
 
-proxy-groups:    
+proxy-groups:
+
+  - name: 📒Notion
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🔰国外流量
+      
       
   - name: AdBlock
     type: select
@@ -41,6 +49,11 @@ proxy-groups:
     interval: "3600"
 rules:
 
+
+ - DOMAIN-SUFFIX,notion.so,📒Notion
+        - DOMAIN-SUFFIX,www.notion.so,📒Notion  
+        - DOMAIN-SUFFIX,msgstore.www.notion.so,📒Notion
+        - DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com,📒Notion
   - DOMAIN-SUFFIX,lekan.app,DIRECT
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
