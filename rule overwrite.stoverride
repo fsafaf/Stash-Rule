@@ -18,3 +18,4 @@ rules:
   - DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com,📒Notion
   - DOMAIN-SUFFIX,flowus.cn,DIRECT
   
+  - DOMAIN-SUFFIX,discoard.com,✈️Telegram
