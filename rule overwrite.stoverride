@@ -19,4 +19,5 @@ rules:
   - DOMAIN-SUFFIX,flowus.cn,DIRECT
   
   - DOMAIN-SUFFIX,discoard.com,✈️Telegram
+	- DOMAIN-SUFFIX, bing.com,🔰国外流量
   
