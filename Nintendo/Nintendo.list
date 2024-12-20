@@ -5,7 +5,6 @@
 # DOMAIN-SUFFIX: 126
 # IP-CIDR: 1
 # TOTAL: 127
-payload:
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
